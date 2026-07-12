@@ -19,7 +19,7 @@ document.getElementById("contactForm").addEventListener("submit", async function
 
     try {
 
-        const response = await fetch("http://localhost:8080/api/contact", {
+        const response = await fetch("https://portfoliobackend-production-8090.up.railway.app/api/contact", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
